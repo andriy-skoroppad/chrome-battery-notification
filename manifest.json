@@ -1,0 +1,23 @@
+{
+  "name": "Battery-notification",
+  "action": {},
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Battery notification",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "notifications",
+    "power",
+    "webNavigation"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icons8-android-l-battery-32.png",
+    "32": "icons8-android-l-battery-32.png",
+    "48": "icons8-android-l-battery-32.png",
+    "128": "icons8-android-l-battery-32.png"
+  }
+}
